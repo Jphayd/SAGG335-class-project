@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 4540861294302333624}
   - component: {fileID: 1252202833974881016}
   - component: {fileID: 5610737062340454248}
+  - component: {fileID: -6837689055236314700}
   m_Layer: 0
   m_Name: Emnemy
   m_TagString: Untagged
@@ -65,6 +66,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f7a13c3298d02b0489fc17a4c1002dd3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _defaultActions:
+    m_PersistentCalls:
+      m_Calls: []
+  _alertedActions:
+    m_PersistentCalls:
+      m_Calls: []
+  _huntActions:
+    m_PersistentCalls:
+      m_Calls: []
+  _miscPattern1Actions:
+    m_PersistentCalls:
+      m_Calls: []
+  _miscPattern2Actions:
+    m_PersistentCalls:
+      m_Calls: []
+  _miscPattern3Actions:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!135 &5610737062340454248
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -78,6 +97,23 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.900852
   m_Center: {x: 0.022087038, y: 0, z: 0.1729388}
+--- !u!114 &-6837689055236314700
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6284027724030716990}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6de41de4ae226b84daea142a96f54b42, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _mainExplosionChunk: {fileID: 7442698565037904048, guid: d1966bd24c319fd418667edc90c15cb8, type: 3}
+  _secondaryExplosionChunk: {fileID: 8527457451923751184, guid: 0f790e8d8c7002e449fb6caa8d109a6d, type: 3}
+  _minChunks: 20
+  _maxChunks: 40
+  _explosionForce: 1500
 --- !u!1 &6284027724112550494
 GameObject:
   m_ObjectHideFlags: 0
