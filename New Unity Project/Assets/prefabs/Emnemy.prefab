@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 1252202833974881016}
   - component: {fileID: 5610737062340454248}
   - component: {fileID: -6837689055236314700}
+  - component: {fileID: -3420365406659083031}
   m_Layer: 0
   m_Name: Emnemy
   m_TagString: Untagged
@@ -53,6 +54,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _healthChange: -5
   _applyToTarget: 0
+  _knockbackForce: 0
   _destroyOnCollision: 0
 --- !u!114 &1252202833974881016
 MonoBehaviour:
@@ -114,6 +116,23 @@ MonoBehaviour:
   _minChunks: 20
   _maxChunks: 40
   _explosionForce: 1500
+--- !u!114 &-3420365406659083031
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6284027724030716990}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b737ad0a19497b54d952eae3118649a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _healthMax: 10
+  _healthCur: 10
+  _invincibilityFramesMax: 1
+  _invincibilityFramesCur: 0
+  _isDead: 0
 --- !u!1 &6284027724112550494
 GameObject:
   m_ObjectHideFlags: 0
