@@ -153,7 +153,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c2d90789cddee5d47bfbdf182abf22c8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _healthChange: -5
+  _healthChange: -1
   _applyToTarget: 1
-  _knockbackForce: 2
+  _knockbackForce: 400
   _destroyOnCollision: 0
